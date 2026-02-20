@@ -6,6 +6,7 @@
     <title>illi — Your web partner</title>
     <meta name="description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools.">
 
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=fraunces:400,400i,700|inter:400,500&display=swap" rel="stylesheet" />
 
