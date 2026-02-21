@@ -26,6 +26,8 @@
 </head>
 <body class="bg-white text-stone-900 antialiased">
 
+    <div class="min-h-[100dvh] 2xl:min-h-0 flex flex-col">
+
     {{-- Nav --}}
     <header class="px-6 py-8 md:px-12 lg:px-16">
         <div class="max-w-3xl mx-auto flex items-center justify-between">
@@ -35,7 +37,7 @@
     </header>
 
     {{-- Hero --}}
-    <section class="px-6 pt-16 pb-24 md:px-12 md:pt-24 md:pb-32 lg:px-16">
+    <section class="flex-1 flex items-center px-6 pt-16 pb-24 md:px-12 md:pt-24 md:pb-32 lg:px-16">
         <div class="max-w-3xl mx-auto">
             <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-400 pl-6">
                 Your<br>
@@ -50,6 +52,8 @@
             </div>
         </div>
     </section>
+
+    </div>
 
     {{-- Case Studies --}}
     <section id="work" class="px-6 py-20 md:px-12 md:py-28 lg:px-16 bg-stone-50">
@@ -143,13 +147,14 @@
     </section>
 
     {{-- Contact --}}
-    <section id="contact" class="px-6 py-20 md:px-12 md:py-28 lg:px-16">
+    <section id="contact" class="bg-stone-900 px-6 py-20 md:px-12 md:py-28 lg:px-16">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">Contact</h2>
-            <p class="font-serif text-3xl md:text-4xl text-stone-900 mb-10 leading-snug">Let's talk about<br>what you need.</p>
-            <div class="space-y-2 text-stone-600">
-                <p><a href="mailto:david@illi.ie" class="hover:text-amber-400 transition-colors">david@illi.ie</a></p>
-                <p><a href="tel:+353894342280" class="hover:text-amber-400 transition-colors">+353 89 434 2280</a></p>
+            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-500 mb-10">Contact</h2>
+            <p class="font-serif text-3xl md:text-4xl text-white mb-4 leading-snug">Let's talk about<br>what you need.</p>
+            <p class="text-stone-400 mb-8">Have a project in mind? <a href="https://calendar.app.google/sXgCAHtJmi3ZnTY17" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-amber-300 transition-colors">Book a call →</a></p>
+            <div class="text-stone-400 space-y-1">
+                <p class="font-medium text-white">David Illichmann</p>
+                <p><a href="mailto:david@illi.ie" class="hover:text-white transition-colors">david@illi.ie</a></p>
             </div>
         </div>
     </section>
