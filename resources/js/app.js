@@ -1,7 +1,7 @@
 import './bootstrap';
 
 // Rotating headline
-const words = ['developer', 'problem solver', 'web guy', 'build partner', 'solution', 'web artisans'];
+const words = ['web artisans', 'problem solver', 'developer', 'solution', 'web guy'];
 let current = 0;
 
 function rotateWord() {
