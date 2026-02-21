@@ -47,7 +47,7 @@
                 I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.
             </p>
             <div class="mt-10 flex flex-col sm:flex-row gap-4">
-                <a href="mailto:david@illi.ie" class="inline-block bg-amber-400 text-stone-900 text-sm px-6 py-3 rounded-full hover:bg-amber-300 transition-colors">Get in touch</a>
+                <a href="#contact" class="inline-block bg-amber-400 text-stone-900 text-sm px-6 py-3 rounded-full hover:bg-amber-300 transition-colors">Get in touch</a>
                 <a href="#work" class="inline-block text-sm px-6 py-3 text-stone-600 hover:text-amber-400 transition-colors">See my work →</a>
             </div>
         </div>
