@@ -6,17 +6,19 @@
     <title>illi — Web artisans</title>
     <meta name="description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools.">
 
+    <link rel="canonical" href="https://illi.ie">
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://illi.ie">
     <meta property="og:title" content="illi — Web artisans">
     <meta property="og:description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
-    <meta property="og:image" content="https://illi.ie/og-image.jpg">
+    <meta property="og:image" content="https://illi.ie/og-image.png">
 
     {{-- Twitter/X card --}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="illi — Web artisans">
     <meta name="twitter:description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
-    <meta name="twitter:image" content="https://illi.ie/og-image.jpg">
+    <meta name="twitter:image" content="https://illi.ie/og-image.png">
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.bunny.net">
