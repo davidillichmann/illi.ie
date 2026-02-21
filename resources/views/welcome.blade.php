@@ -6,6 +6,18 @@
     <title>illi — Your web partner</title>
     <meta name="description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools.">
 
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://illi.ie">
+    <meta property="og:title" content="illi — Your web partner">
+    <meta property="og:description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
+    <meta property="og:image" content="https://illi.ie/og-image.jpg">
+
+    {{-- Twitter/X card --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="illi — Your web partner">
+    <meta name="twitter:description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
+    <meta name="twitter:image" content="https://illi.ie/og-image.jpg">
+
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=fraunces:400,400i,700|inter:400,500&display=swap" rel="stylesheet" />

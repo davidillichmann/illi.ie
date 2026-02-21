@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      @import url('https://fonts.bunny.net/css?family=fraunces:400,700|inter:400,500');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#ffffff"/>
+
+  <!-- Bottom strip -->
+  <rect y="545" width="1200" height="85" fill="#fafaf9"/>
+
+  <!-- Amber accent bar spanning both headline lines -->
+  <rect x="80" y="100" width="5" height="270" fill="#fbbf24" rx="2"/>
+
+  <!-- "Your" -->
+  <text x="118" y="225" font-family="Fraunces, Georgia, serif" font-size="120" font-weight="400" fill="#1c1917">Your</text>
+
+  <!-- "web solution" in amber -->
+  <text x="118" y="350" font-family="Fraunces, Georgia, serif" font-size="120" font-weight="400" fill="#fbbf24">web solution</text>
+
+  <!-- Divider -->
+  <rect x="80" y="390" width="1040" height="1" fill="#e7e5e4"/>
+
+  <!-- Tagline -->
+  <text x="80" y="440" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">I help small and medium businesses build, fix, and modernise</text>
+  <text x="80" y="473" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">their web presence and internal tools.</text>
+
+  <!-- illi.ie wordmark sitting on the bottom strip -->
+  <text x="1120" y="543" font-family="Fraunces, Georgia, serif" font-size="38" font-weight="400" fill="#a8a29e" text-anchor="end">illi.ie</text>
+</svg>
