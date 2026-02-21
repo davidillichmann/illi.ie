@@ -58,11 +58,11 @@
     {{-- Case Studies --}}
     <section id="work" class="px-6 py-20 md:px-12 md:py-28 lg:px-16 bg-stone-50">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-14">Work</h2>
+            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">Work</h2>
 
-            <div class="space-y-16">
+            <div class="divide-y divide-stone-200">
 
-                <div class="border-t border-stone-200 pt-10">
+                <div class="py-10">
                     <p class="text-xs text-stone-400 mb-3">Workspace booking platform</p>
                     <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Clearooms</h3>
                     <p class="text-stone-600 leading-relaxed">
@@ -70,7 +70,7 @@
                     </p>
                 </div>
 
-                <div class="border-t border-stone-200 pt-10">
+                <div class="py-10">
                     <p class="text-xs text-stone-400 mb-3">Healthcare app modernisation</p>
                     <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Laya Healthcare</h3>
                     <p class="text-stone-600 leading-relaxed">
@@ -78,7 +78,7 @@
                     </p>
                 </div>
 
-                <div class="border-t border-stone-200 pt-10">
+                <div class="py-10">
                     <p class="text-xs text-stone-400 mb-3">Internal platform for a music group</p>
                     <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Music catalogue platform</h3>
                     <p class="text-stone-600 leading-relaxed">
@@ -93,37 +93,37 @@
     {{-- Services --}}
     <section id="services" class="px-6 py-20 md:px-12 md:py-28 lg:px-16">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-14">Services</h2>
+            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">Services</h2>
 
-            <p class="text-stone-600 leading-relaxed mb-12">
+            <p class="text-stone-600 leading-relaxed mb-10">
                 Whether you're starting from scratch or trying to fix what you already have, here's where I can help:
             </p>
 
-            <div class="space-y-10">
+            <div>
 
-                <div class="border-t border-stone-200 pt-8">
+                <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">New websites and web apps</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Got an idea or a business that needs a proper online presence? I'll build something clean, fast, and easy to manage.</p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Got an idea or a business that needs a proper online presence? I'll build something <span class="text-amber-400">clean, fast, and easy to manage</span>.</p>
                 </div>
 
-                <div class="border-t border-stone-200 pt-8">
+                <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">Modernising old systems</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Running on something outdated, slow, or held together with duct tape? I can assess what you have and bring it up to speed.</p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Running on something outdated, slow, or held together with duct tape? I can assess what you have and <span class="text-amber-400">bring it up to speed</span>.</p>
                 </div>
 
-                <div class="border-t border-stone-200 pt-8">
+                <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">Internal tools and portals</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Need something just for your team? Booking systems, admin panels, customer portals — tools that make your operation run smoother.</p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Need something just for your team? Booking systems, admin panels, customer portals — tools that <span class="text-amber-400">make your operation run smoother</span>.</p>
                 </div>
 
-                <div class="border-t border-stone-200 pt-8">
+                <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">Ongoing support and development</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Some clients need a one-off project. Others want someone they can call when something breaks or when the next idea hits. I'm open to both.</p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Some clients need a one-off project. Others want someone they can call when something breaks or when the next idea hits. <span class="text-amber-400">I'm open to both.</span></p>
                 </div>
 
             </div>
 
-            <p class="mt-14 text-stone-500 text-sm leading-relaxed">
+            <p class="border-t border-stone-200 pt-10 text-stone-500 text-sm leading-relaxed">
                 I work with businesses in hospitality, trades, property, e-commerce, healthcare, and beyond. If you're not sure whether what you need falls into any of these — just ask.
             </p>
         </div>
@@ -132,11 +132,11 @@
     {{-- About --}}
     <section id="about" class="px-6 py-20 md:px-12 md:py-28 lg:px-16 bg-stone-50">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-14">About</h2>
+            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">About</h2>
 
             <div class="space-y-5 text-stone-600 leading-relaxed">
                 <p>
-                    I'm David, the person behind illi. I've spent 8 years building web products for companies ranging from Irish healthcare providers to international music groups — always as someone who gets their hands dirty, not just someone who writes a spec and disappears.
+                    I'm David, the person behind <span class="font-serif">illi</span>. I've spent <span class="text-amber-400">8 years</span> building web products for companies ranging from Irish healthcare providers to international music groups — always as someone who gets their hands dirty, not just someone who writes a spec and disappears.
                 </p>
                 <p>
                     I'm based in Celbridge, Ireland, and I work with clients remotely and in person. I'm straightforward to deal with, I communicate clearly, and I don't hide behind jargon. If I can't help you with something, I'll tell you — and I'll probably know someone who can.
