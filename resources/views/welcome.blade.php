@@ -37,7 +37,7 @@
     {{-- Hero --}}
     <section class="px-6 pt-16 pb-24 md:px-12 md:pt-24 md:pb-32 lg:px-16">
         <div class="max-w-3xl mx-auto">
-            <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900">
+            <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-400 pl-6">
                 Your<br>
                 <span id="rotating-word" class="text-amber-400 transition-opacity duration-300">developer</span>
             </h1>
