@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>illi — Web artisans</title>
+    <title>illi — Freelance Web Developer, Ireland</title>
     <meta name="description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools.">
 
     <link rel="canonical" href="https://illi.ie">
@@ -21,10 +21,13 @@
     <meta name="twitter:image" content="https://illi.ie/og-image.png">
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=fraunces:400,400i,700|inter:400,500&display=swap" rel="stylesheet" />
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    @include('partials.jsonld')
 </head>
 <body class="bg-white text-stone-900 antialiased">
 
