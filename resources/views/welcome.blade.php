@@ -41,7 +41,7 @@
         <div class="max-w-3xl mx-auto">
             <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-400 pl-6">
                 Your<br>
-                <span id="rotating-word" class="text-amber-400 transition-opacity duration-300">developer</span>
+                <span id="rotating-word" class="text-amber-400 transition-opacity duration-300">web artisans</span>
             </h1>
             <p class="mt-10 text-lg md:text-xl text-stone-600 leading-relaxed max-w-xl">
                 I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.
