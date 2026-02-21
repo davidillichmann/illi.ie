@@ -10,13 +10,13 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://illi.ie">
-    <meta property="og:title" content="illi — Web artisans">
+    <meta property="og:title" content="illi — Your Web Artisan">
     <meta property="og:description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
     <meta property="og:image" content="https://illi.ie/og-image.png">
 
     {{-- Twitter/X card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="illi — Web artisans">
+    <meta name="twitter:title" content="illi — Your Web Artisan">
     <meta name="twitter:description" content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
     <meta name="twitter:image" content="https://illi.ie/og-image.png">
 
@@ -46,7 +46,7 @@
         <div class="max-w-3xl mx-auto">
             <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-400 pl-6">
                 Your<br>
-                <span id="rotating-word" class="text-amber-400 transition-opacity duration-300">web artisans</span>
+                <span id="rotating-word" class="text-amber-400 transition-opacity duration-300">web artisan</span>
             </h1>
             <p class="mt-10 text-lg md:text-xl text-stone-600 leading-relaxed max-w-xl">
                 I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.
