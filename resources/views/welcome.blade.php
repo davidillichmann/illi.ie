@@ -45,16 +45,16 @@
     {{-- Hero --}}
     <section class="flex-1 flex items-center px-6 pt-16 pb-24 md:px-12 md:pt-24 md:pb-32 lg:px-16">
         <div class="max-w-3xl mx-auto">
-            <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-400 pl-6">
+            <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-600 pl-6">
                 Your<br>
-                <span id="rotating-word" class="text-amber-400 transition-opacity duration-300">web artisan</span>
+                <span id="rotating-word" class="text-amber-600 transition-opacity duration-300">web artisan</span>
             </h1>
             <p class="mt-10 text-lg md:text-xl text-stone-600 leading-relaxed max-w-xl">
                 I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.
             </p>
             <div class="mt-10 flex flex-col sm:flex-row gap-4">
-                <a href="#contact" class="inline-block bg-amber-400 text-stone-900 text-sm px-6 py-3 rounded-full hover:bg-amber-300 transition-colors">Get in touch</a>
-                <a href="#work" class="inline-block text-sm px-6 py-3 text-stone-600 hover:text-amber-400 transition-colors">See my work →</a>
+                <a href="#contact" class="inline-block bg-amber-600 text-white text-sm px-6 py-3 rounded-full hover:bg-amber-700 transition-colors">Get in touch</a>
+                <a href="#work" class="inline-block text-sm px-6 py-3 text-stone-600 hover:text-amber-600 transition-colors">See my work →</a>
             </div>
         </div>
     </section>
@@ -109,22 +109,22 @@
 
                 <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">New websites and web apps</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Got an idea or a business that needs a proper online presence? I'll build something <span class="text-amber-400">clean, fast, and easy to manage</span>.</p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Got an idea or a business that needs a proper online presence? I'll build something <span class="text-amber-600">clean, fast, and easy to manage</span>.</p>
                 </div>
 
                 <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">Modernising old systems</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Running on something outdated, slow, or held together with duct tape? I can assess what you have and <span class="text-amber-400">bring it up to speed</span>.</p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Running on something outdated, slow, or held together with duct tape? I can assess what you have and <span class="text-amber-600">bring it up to speed</span>.</p>
                 </div>
 
                 <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">Internal tools and portals</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Need something just for your team? Booking systems, admin panels, customer portals — tools that <span class="text-amber-400">make your operation run smoother</span>.</p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Need something just for your team? Booking systems, admin panels, customer portals — tools that <span class="text-amber-600">make your operation run smoother</span>.</p>
                 </div>
 
                 <div class="border-t border-stone-200 py-10">
                     <h3 class="font-medium text-stone-900 mb-3">Ongoing support and development</h3>
-                    <p class="text-stone-500 leading-relaxed text-sm">Some clients need a one-off project. Others want someone they can call when something breaks or when the next idea hits. <span class="text-amber-400">I'm open to both.</span></p>
+                    <p class="text-stone-500 leading-relaxed text-sm">Some clients need a one-off project. Others want someone they can call when something breaks or when the next idea hits. <span class="text-amber-600">I'm open to both.</span></p>
                 </div>
 
             </div>
@@ -142,12 +142,12 @@
 
             <div class="space-y-5 text-stone-600 leading-relaxed">
                 <p>
-                    I'm David, the person behind <span class="font-serif">illi</span>. I've spent <span class="text-amber-400">8 years</span> building web products for companies ranging from Irish healthcare providers to international music groups — always as someone who gets their hands dirty, not just someone who writes a spec and disappears.
+                    I'm David, the person behind <span class="font-serif">illi</span>. I've spent <span class="text-amber-600">8 years</span> building web products for companies ranging from Irish healthcare providers to international music groups — always as someone who gets their hands dirty, not just someone who writes a spec and disappears.
                 </p>
                 <p>
                     I'm based in Celbridge, Ireland, and I work with clients remotely and in person. I'm straightforward to deal with, I communicate clearly, and I don't hide behind jargon. If I can't help you with something, I'll tell you — and I'll probably know someone who can.
                 </p>
-                <p>Also, I like <span class="text-amber-400">mango</span>.</p>
+                <p>Also, I like <span class="text-amber-600">mango</span>.</p>
             </div>
         </div>
     </section>
@@ -157,7 +157,7 @@
         <div class="max-w-3xl mx-auto">
             <h2 class="text-xs font-medium uppercase tracking-widest text-stone-500 mb-10">Contact</h2>
             <p class="font-serif text-3xl md:text-4xl text-white mb-4 leading-snug">Let's talk about<br>what you need.</p>
-            <p class="text-stone-400 mb-8">Have a project in mind? <a href="https://calendar.app.google/sXgCAHtJmi3ZnTY17" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-amber-300 transition-colors">Book a call →</a></p>
+            <p class="text-stone-400 mb-8">Have a project in mind? <a href="https://calendar.app.google/sXgCAHtJmi3ZnTY17" target="_blank" rel="noopener noreferrer" class="text-amber-600 hover:text-amber-500 transition-colors">Book a call →</a></p>
             <div class="text-stone-400 space-y-1">
                 <p class="font-medium text-white">David Illichmann</p>
                 <p><a href="mailto:david@illi.ie" class="hover:text-white transition-colors">david@illi.ie</a></p>

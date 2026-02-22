@@ -12,13 +12,13 @@
   <rect y="520" width="1200" height="110" fill="#1c1917"/>
 
   <!-- Amber accent bar spanning both headline lines -->
-  <rect x="80" y="100" width="5" height="270" fill="#fbbf24" rx="2"/>
+  <rect x="80" y="100" width="5" height="270" fill="#d97706" rx="2"/>
 
   <!-- "Your" -->
   <text x="118" y="225" font-family="Fraunces, Georgia, serif" font-size="120" font-weight="400" fill="#1c1917">Your</text>
 
   <!-- "web solution" in amber -->
-  <text x="118" y="350" font-family="Fraunces, Georgia, serif" font-size="120" font-weight="400" fill="#fbbf24">web solution</text>
+  <text x="118" y="350" font-family="Fraunces, Georgia, serif" font-size="120" font-weight="400" fill="#d97706">web solution</text>
 
   <!-- Divider -->
   <rect x="80" y="390" width="1040" height="1" fill="#e7e5e4"/>
