@@ -9,7 +9,7 @@
   <rect width="1200" height="630" fill="#ffffff"/>
 
   <!-- Bottom strip -->
-  <rect y="545" width="1200" height="85" fill="#fafaf9"/>
+  <rect y="520" width="1200" height="110" fill="#1c1917"/>
 
   <!-- Amber accent bar spanning both headline lines -->
   <rect x="80" y="100" width="5" height="270" fill="#fbbf24" rx="2"/>
@@ -27,6 +27,6 @@
   <text x="80" y="440" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">I help small and medium businesses build, fix, and modernise</text>
   <text x="80" y="473" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">their web presence and internal tools.</text>
 
-  <!-- illi.ie wordmark sitting on the bottom strip -->
-  <text x="1120" y="543" font-family="Fraunces, Georgia, serif" font-size="38" font-weight="400" fill="#a8a29e" text-anchor="end">illi.ie</text>
+  <!-- illi wordmark sitting on the bottom strip -->
+  <text x="1120" y="592" font-family="Fraunces, Georgia, serif" font-size="46" font-weight="400" fill="#ffffff" text-anchor="end">illi.ie</text>
 </svg>
