@@ -1,10 +1,10 @@
-@if(env('GA_ID'))
+@if(config('services.ga_id'))
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ env('GA_ID') }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ config('services.ga_id') }}"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '{{ env('GA_ID') }}');
+    gtag('config', '{{ config('services.ga_id') }}');
 </script>
 @endif

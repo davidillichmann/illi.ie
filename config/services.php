@@ -14,6 +14,8 @@ return [
     |
     */
 
+    'ga_id' => env('GA_ID'),
+
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
