@@ -12,16 +12,16 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://illi.ie">
-    <meta property="og:title" content="illi — Your Web Artisan">
+    <meta property="og:title" content="illi: Your Web Artisan">
     <meta property="og:description"
-          content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
+          content="I help small and medium businesses build, fix, and modernise their web presence and internal tools. You deal with me directly, from first conversation to finished product.">
     <meta property="og:image" content="https://illi.ie/og-image.png">
 
     {{-- Twitter/X card --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="illi — Your Web Artisan">
+    <meta name="twitter:title" content="illi: Your Web Artisan">
     <meta name="twitter:description"
-          content="I help small and medium businesses build, fix, and modernise their web presence and internal tools — you deal with me directly, from first conversation to finished product.">
+          content="I help small and medium businesses build, fix, and modernise their web presence and internal tools. You deal with me directly, from first conversation to finished product.">
     <meta name="twitter:image" content="https://illi.ie/og-image.png">
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -53,8 +53,7 @@
                 <span id="rotating-word" class="text-amber-600 transition-opacity duration-300">web artisan</span>
             </h1>
             <p class="mt-10 text-lg md:text-xl text-stone-600 leading-relaxed max-w-xl">
-                I help small and medium businesses build, fix, and modernise their web presence and internal tools — you
-                deal with me directly, from first conversation to finished product.
+                I help small and medium businesses build, fix, and modernise their web presence and internal tools. You deal with me directly, from first conversation to finished product.
             </p>
             <div class="mt-10 flex flex-col sm:flex-row gap-4">
                 <a href="#contact"
@@ -80,7 +79,7 @@
                 <p class="text-xs text-stone-400 mb-3">Workspace booking platform</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Clearooms</h3>
                 <p class="text-stone-600 leading-relaxed">
-                    A startup needed a full booking platform built from scratch — room and desk reservations, Google and
+                    A startup needed a full booking platform built from scratch: room and desk reservations, Google and
                     Microsoft calendar integrations, Stripe payments, and real-time availability. I was part of the core
                     team that built it from zero to a live production product, and later led development as the platform
                     grew.
@@ -93,7 +92,7 @@
                 <p class="text-stone-600 leading-relaxed">
                     A major Irish health insurer was running critical patient-facing tools on outdated technology. I led
                     the rebuild of their login system and patient cover-checker app into modern, fast, maintainable
-                    applications — without disrupting live services in the process.
+                    applications, without disrupting live services in the process.
                 </p>
             </div>
 
@@ -103,7 +102,7 @@
                 <p class="text-stone-600 leading-relaxed">
                     A large music company needed a custom internal platform to manage artists, contracts, and release
                     workflows across their catalogue. I was part of the core team that spent nearly three years building
-                    and refining this — a complex, high-stakes product used daily by their entire operation.
+                    and refining this, a complex, high-stakes product used daily by their entire operation.
                 </p>
             </div>
 
@@ -139,7 +138,7 @@
             <div class="border-t border-stone-200 py-10">
                 <h3 class="font-medium text-stone-900 mb-3">Internal tools and portals</h3>
                 <p class="text-stone-500 leading-relaxed text-sm">Need something just for your team? Booking systems,
-                    admin panels, customer portals — tools that <span class="text-amber-600">make your operation run smoother</span>.
+                    admin panels, customer portals: tools that <span class="text-amber-600">make your operation run smoother</span>.
                 </p>
             </div>
 
@@ -154,7 +153,7 @@
 
         <p class="border-t border-stone-200 pt-10 text-stone-500 text-sm leading-relaxed">
             I work with businesses in hospitality, trades, property, e-commerce, healthcare, and beyond. If you're not
-            sure whether what you need falls into any of these — just ask.
+            sure whether what you need falls into any of these, just ask.
         </p>
     </div>
 </section>
