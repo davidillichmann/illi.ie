@@ -162,7 +162,7 @@
 <section id="about" class="px-6 py-20 md:px-12 md:py-28 lg:px-16 bg-stone-50">
     <div class="max-w-3xl mx-auto">
         <div class="overflow-hidden">
-            <img src="/david-avatar.jpg" alt="David Illichmann"
+            <img src="{{ asset('david-avatar.jpg') }}" alt="David Illichmann"
                  class="float-right w-20 h-20 lg:w-28 lg:h-28 rounded-full object-cover object-center ml-4 mb-2 md:ml-8 md:mb-4 ring-2 ring-stone-200">
             <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">About</h2>
 
