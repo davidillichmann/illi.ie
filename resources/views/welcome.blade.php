@@ -4,7 +4,7 @@
     @include('partials.gtag')
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>illi | Freelance Web Developer, Ireland</title>
+    <title>illi — Freelance Web Developer, Ireland</title>
     <meta name="description"
           content="I help small and medium businesses build, fix, and modernise their web presence and internal tools.">
 
