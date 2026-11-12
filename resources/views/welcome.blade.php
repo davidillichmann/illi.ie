@@ -179,7 +179,7 @@
         <div class="divide-y divide-stone-200">
 
             <div class="py-8 first:pt-0 last:pb-0 md:py-10 md:first:pt-10 md:last:pb-10">
-                <p class="text-xs text-stone-400 mb-3">Water monitoring and flow survey specialists</p>
+                <p class="text-xs text-stone-400 mb-3">Irish water monitoring and flow survey specialists</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">CWSL Portal</h3>
                 <p class="text-stone-600 leading-relaxed">
                     CWSL's site work was spread across multiple spreadsheets, AppSheet automations and a separate
@@ -213,7 +213,7 @@
             </div>
 
             <div class="py-8 first:pt-0 last:pb-0 md:py-10 md:first:pt-10 md:last:pb-10">
-                <p class="text-xs text-stone-400 mb-3">Workspace booking platform</p>
+                <p class="text-xs text-stone-400 mb-3">UK workspace booking platform</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Clearooms</h3>
                 <p class="text-stone-600 leading-relaxed">
                     A startup needed a full booking platform built from scratch: room and desk reservations, Google and
