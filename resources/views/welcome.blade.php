@@ -46,7 +46,7 @@
     </header>
 
     {{-- Hero --}}
-    <section class="flex-1 flex items-center px-6 pt-16 pb-24 md:px-12 md:pt-24 md:pb-32 lg:px-16">
+    <section class="relative flex-1 flex items-center px-6 pt-16 pb-24 md:px-12 md:pt-24 md:pb-32 lg:px-16">
         <div class="max-w-3xl mx-auto w-full">
             <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-600 pl-6">
                 Your<br>
@@ -63,7 +63,7 @@
                    class="inline-block text-sm px-6 py-3 text-stone-600 hover:text-amber-600 transition-colors">See my
                     work →</a>
             </div>
-            <p class="mt-10 max-w-xl border-t border-stone-200 pt-6 text-sm text-stone-500">
+            <p class="absolute inset-x-6 bottom-8 text-sm text-stone-500 md:static md:mt-10 md:max-w-xl md:border-t md:border-stone-200 md:pt-6">
                 <a href="#extra-hands" class="hover:text-amber-600 transition-colors">Need extra hands on your team? →</a>
             </p>
         </div>
@@ -76,88 +76,88 @@
     <div class="max-w-3xl mx-auto">
         <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">Sound familiar?</h2>
 
-        <div class="lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-12">
+        <div>
 
-            <details class="familiar group border-t border-stone-200" open>
-                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 lg:py-6 focus:outline-none [&::-webkit-details-marker]:hidden">
-                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl lg:text-xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
+            <details class="familiar group border-t border-stone-200 lg:relative lg:grid lg:grid-cols-2 lg:gap-x-12" open>
+                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 focus:outline-none lg:after:absolute lg:after:inset-0 [&::-webkit-details-marker]:hidden">
+                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
                         <span class="text-balance">&ldquo;We run the business on spreadsheets, WhatsApp and phone calls.&rdquo;</span>
-                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:mt-1.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:absolute lg:right-0 lg:top-7" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
                             <path d="M8 2v12M2 8h12"/>
                         </svg>
                     </h3>
                 </summary>
-                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:pr-8">
+                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:relative lg:z-10 lg:pb-7 lg:pr-12 lg:pt-[2.125rem]">
                     It all moves into <span class="text-amber-600">one system built around how you already work</span>. Nothing depends on who saw which message or who has the latest file.
                 </p>
             </details>
 
-            <details class="familiar group border-t border-stone-200">
-                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 lg:py-6 focus:outline-none [&::-webkit-details-marker]:hidden">
-                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl lg:text-xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
+            <details class="familiar group border-t border-stone-200 lg:relative lg:grid lg:grid-cols-2 lg:gap-x-12">
+                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 focus:outline-none lg:after:absolute lg:after:inset-0 [&::-webkit-details-marker]:hidden">
+                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
                         <span class="text-balance">&ldquo;Our clients keep ringing for information they should be able to look up themselves.&rdquo;</span>
-                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:mt-1.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:absolute lg:right-0 lg:top-7" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
                             <path d="M8 2v12M2 8h12"/>
                         </svg>
                     </h3>
                 </summary>
-                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:pr-8">
+                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:relative lg:z-10 lg:pb-7 lg:pr-12 lg:pt-[2.125rem]">
                     <span class="text-amber-600">A client portal.</span> Your clients log in and find what they need, and your phone rings less.
                 </p>
             </details>
 
-            <details class="familiar group border-t border-stone-200">
-                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 lg:py-6 focus:outline-none [&::-webkit-details-marker]:hidden">
-                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl lg:text-xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
+            <details class="familiar group border-t border-stone-200 lg:relative lg:grid lg:grid-cols-2 lg:gap-x-12">
+                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 focus:outline-none lg:after:absolute lg:after:inset-0 [&::-webkit-details-marker]:hidden">
+                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
                         <span class="text-balance">&ldquo;Our system still works, but it&rsquo;s showing its age.&rdquo;</span>
-                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:mt-1.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:absolute lg:right-0 lg:top-7" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
                             <path d="M8 2v12M2 8h12"/>
                         </svg>
                     </h3>
                 </summary>
-                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:pr-8">
+                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:relative lg:z-10 lg:pb-7 lg:pr-12 lg:pt-[2.125rem]">
                     It gets <span class="text-amber-600">modernised piece by piece</span>, and your business keeps running while it happens.
                 </p>
             </details>
 
-            <details class="familiar group border-t border-stone-200">
-                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 lg:py-6 focus:outline-none [&::-webkit-details-marker]:hidden">
-                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl lg:text-xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
+            <details class="familiar group border-t border-stone-200 lg:relative lg:grid lg:grid-cols-2 lg:gap-x-12">
+                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 focus:outline-none lg:after:absolute lg:after:inset-0 [&::-webkit-details-marker]:hidden">
+                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
                         <span class="text-balance">&ldquo;We already have software, it just needs someone to look after it.&rdquo;</span>
-                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:mt-1.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:absolute lg:right-0 lg:top-7" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
                             <path d="M8 2v12M2 8h12"/>
                         </svg>
                     </h3>
                 </summary>
-                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:pr-8">
+                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:relative lg:z-10 lg:pb-7 lg:pr-12 lg:pt-[2.125rem]">
                     <span class="text-amber-600">A fresh pair of hands</span> for what you have: what's broken gets fixed, what's missing gets built.
                 </p>
             </details>
 
-            <details class="familiar group border-t border-stone-200">
-                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 lg:py-6 focus:outline-none [&::-webkit-details-marker]:hidden">
-                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl lg:text-xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
+            <details class="familiar group border-t border-stone-200 lg:relative lg:grid lg:grid-cols-2 lg:gap-x-12">
+                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 focus:outline-none lg:after:absolute lg:after:inset-0 [&::-webkit-details-marker]:hidden">
+                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
                         <span class="text-balance">&ldquo;We have an idea for a product and nobody to build it.&rdquo;</span>
-                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:mt-1.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:absolute lg:right-0 lg:top-7" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
                             <path d="M8 2v12M2 8h12"/>
                         </svg>
                     </h3>
                 </summary>
-                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:pr-8">
+                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:relative lg:z-10 lg:pb-7 lg:pr-12 lg:pt-[2.125rem]">
                     From a few notes to <span class="text-amber-600">a live product</span>, with someone who has done it before.
                 </p>
             </details>
 
-            <details class="familiar group border-t border-stone-200">
-                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 lg:py-6 focus:outline-none [&::-webkit-details-marker]:hidden">
-                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl lg:text-xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
+            <details class="familiar group border-t border-stone-200 lg:relative lg:grid lg:grid-cols-2 lg:gap-x-12">
+                <summary class="group/summary block cursor-pointer list-none py-6 md:py-7 focus:outline-none lg:after:absolute lg:after:inset-0 [&::-webkit-details-marker]:hidden">
+                    <h3 class="flex items-start justify-between gap-6 rounded-sm font-serif text-xl md:text-2xl leading-snug text-stone-900 group-focus-visible/summary:outline group-focus-visible/summary:outline-2 group-focus-visible/summary:outline-offset-8 group-focus-visible/summary:outline-amber-600">
                         <span class="text-balance">&ldquo;Our website no longer reflects the business.&rdquo;</span>
-                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:mt-1.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                        <svg class="mt-1.5 h-4 w-4 shrink-0 text-stone-400 transition duration-300 group-open:rotate-45 group-open:text-amber-600 group-hover/summary:text-amber-600 md:mt-2 lg:absolute lg:right-0 lg:top-7" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
                             <path d="M8 2v12M2 8h12"/>
                         </svg>
                     </h3>
                 </summary>
-                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:pr-8">
+                <p class="max-w-xl pb-8 pr-10 text-stone-600 leading-relaxed text-pretty lg:relative lg:z-10 lg:pb-7 lg:pr-12 lg:pt-[2.125rem]">
                     <span class="text-amber-600">A new site</span> that is fast, easy to update, and looks like the business you are today.
                 </p>
             </details>
@@ -192,7 +192,7 @@
             </div>
 
             <div class="py-10">
-                <p class="text-xs text-stone-400 mb-3">Independent record label and artist management company</p>
+                <p class="text-xs text-stone-400 mb-3">North American record label</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Nettwerk Central</h3>
                 <p class="text-stone-600 leading-relaxed">
                     Nettwerk Central is the custom internal platform where Nettwerk manages artists, contracts and
