@@ -72,9 +72,9 @@
 </div>
 
 {{-- Sound familiar? --}}
-<section id="sound-familiar" class="px-6 py-20 md:px-12 md:py-28 lg:px-16 bg-stone-50">
+<section id="sound-familiar" class="px-6 py-14 md:px-12 md:py-28 lg:px-16 bg-stone-50">
     <div class="max-w-3xl mx-auto">
-        <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">Sound familiar?</h2>
+        <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-6 md:mb-10">Sound familiar?</h2>
 
         <div>
 
@@ -164,7 +164,7 @@
 
         </div>
 
-        <p class="border-t border-stone-200 pt-10 text-stone-600 leading-relaxed">
+        <p class="border-t border-stone-200 pt-8 md:pt-10 text-stone-600 leading-relaxed">
             If any of that sounds like your business, let's talk. Not on the list?
             <a href="#contact" class="text-amber-600 hover:text-amber-700 transition-colors whitespace-nowrap">Just ask →</a>
         </p>
@@ -172,13 +172,13 @@
 </section>
 
 {{-- Work --}}
-<section id="work" class="px-6 py-20 md:px-12 md:py-28 lg:px-16">
+<section id="work" class="px-6 py-14 md:px-12 md:py-28 lg:px-16">
     <div class="max-w-3xl mx-auto">
-        <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">Work</h2>
+        <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-6 md:mb-10">Work</h2>
 
         <div class="divide-y divide-stone-200">
 
-            <div class="py-10">
+            <div class="py-8 first:pt-0 last:pb-0 md:py-10 md:first:pt-10 md:last:pb-10">
                 <p class="text-xs text-stone-400 mb-3">Water monitoring and flow survey specialists</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">CWSL Portal</h3>
                 <p class="text-stone-600 leading-relaxed">
@@ -191,7 +191,7 @@
                 </p>
             </div>
 
-            <div class="py-10">
+            <div class="py-8 first:pt-0 last:pb-0 md:py-10 md:first:pt-10 md:last:pb-10">
                 <p class="text-xs text-stone-400 mb-3">North American record label</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Nettwerk Central</h3>
                 <p class="text-stone-600 leading-relaxed">
@@ -202,7 +202,7 @@
                 </p>
             </div>
 
-            <div class="py-10">
+            <div class="py-8 first:pt-0 last:pb-0 md:py-10 md:first:pt-10 md:last:pb-10">
                 <p class="text-xs text-stone-400 mb-3">Irish health insurance provider</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Laya Healthcare</h3>
                 <p class="text-stone-600 leading-relaxed">
@@ -212,7 +212,7 @@
                 </p>
             </div>
 
-            <div class="py-10">
+            <div class="py-8 first:pt-0 last:pb-0 md:py-10 md:first:pt-10 md:last:pb-10">
                 <p class="text-xs text-stone-400 mb-3">Workspace booking platform</p>
                 <h3 class="font-serif text-2xl md:text-3xl text-stone-900 mb-5">Clearooms</h3>
                 <p class="text-stone-600 leading-relaxed">
@@ -228,12 +228,12 @@
 </section>
 
 {{-- About and How I work --}}
-<section id="about" class="px-6 py-20 md:px-12 md:py-28 lg:px-16 bg-stone-50">
+<section id="about" class="px-6 py-14 md:px-12 md:py-28 lg:px-16 bg-stone-50">
     <div class="max-w-3xl mx-auto">
         <div class="overflow-hidden">
             <img src="{{ asset('david-avatar.jpg') }}" alt="David Illichmann"
                  class="float-right w-20 h-20 lg:w-28 lg:h-28 rounded-full object-cover object-center ml-4 mb-2 md:ml-8 md:mb-4 ring-2 ring-stone-200">
-            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">About</h2>
+            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-6 md:mb-10">About</h2>
 
             <div class="space-y-5 text-stone-600 leading-relaxed">
                 <p>
@@ -252,8 +252,8 @@
             </div>
         </div>
 
-        <div id="how-i-work" class="mt-16 border-t border-stone-200 pt-16 md:mt-20 md:pt-20">
-            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-10">How I work</h2>
+        <div id="how-i-work" class="mt-10 border-t border-stone-200 pt-10 md:mt-20 md:pt-20">
+            <h2 class="text-xs font-medium uppercase tracking-widest text-stone-400 mb-6 md:mb-10">How I work</h2>
 
             <div class="space-y-5 text-stone-600 leading-relaxed">
                 <p>
@@ -270,12 +270,12 @@
 </section>
 
 {{-- Contact --}}
-<section id="contact" class="bg-stone-900 px-6 py-20 md:px-12 md:py-28 lg:px-16">
+<section id="contact" class="bg-stone-900 px-6 py-14 md:px-12 md:py-28 lg:px-16">
     <div class="max-w-3xl mx-auto">
-        <h2 class="text-xs font-medium uppercase tracking-widest text-stone-500 mb-10">Contact</h2>
-        <p class="font-serif text-3xl md:text-4xl text-white mb-12 leading-snug">Let's talk about<br>what you need.</p>
+        <h2 class="text-xs font-medium uppercase tracking-widest text-stone-500 mb-6 md:mb-10">Contact</h2>
+        <p class="font-serif text-3xl md:text-4xl text-white mb-8 md:mb-12 leading-snug">Let's talk about<br>what you need.</p>
 
-        <div class="grid gap-10 md:grid-cols-2 md:gap-12">
+        <div class="grid gap-8 md:grid-cols-2 md:gap-12">
 
             <div id="project" class="flex flex-col border-t border-stone-700 pt-6 scroll-mt-8 transition-colors target:border-amber-600">
                 <h3 class="font-medium text-white mb-3">Have a project in mind?</h3>
@@ -302,7 +302,7 @@
 
         </div>
 
-        <div class="mt-14 text-stone-400 space-y-1">
+        <div class="mt-10 md:mt-14 text-stone-400 space-y-1">
             <p class="font-medium text-white">David Illichmann</p>
             <p><a href="mailto:david@illi.ie" class="hover:text-white transition-colors">david@illi.ie</a></p>
         </div>
