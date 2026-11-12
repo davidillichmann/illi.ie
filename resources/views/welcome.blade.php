@@ -46,7 +46,7 @@
     </header>
 
     {{-- Hero --}}
-    <section class="relative flex-1 flex items-center px-6 pt-16 pb-24 md:px-12 md:pt-24 md:pb-32 lg:px-16">
+    <section class="relative flex-1 flex items-center px-6 pt-16 pb-28 md:px-12 md:pt-24 md:pb-32 lg:px-16">
         <div class="max-w-3xl mx-auto w-full">
             <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-stone-900 border-l-[3px] border-amber-600 pl-6">
                 Your<br>
@@ -63,7 +63,7 @@
                    class="inline-block text-sm px-6 py-3 text-stone-600 hover:text-amber-600 transition-colors">See my
                     work →</a>
             </div>
-            <p class="absolute inset-x-6 bottom-8 text-sm text-stone-500 md:static md:mt-10 md:max-w-xl md:border-t md:border-stone-200 md:pt-6">
+            <p class="absolute inset-x-6 bottom-8 border-t border-stone-200 pt-6 text-sm text-stone-500 md:static md:mt-10 md:max-w-xl">
                 <a href="#extra-hands" class="hover:text-amber-600 transition-colors">Need extra hands on your team? →</a>
             </p>
         </div>
