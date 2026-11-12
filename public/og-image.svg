@@ -24,8 +24,8 @@
   <rect x="80" y="390" width="1040" height="1" fill="#e7e5e4"/>
 
   <!-- Tagline -->
-  <text x="80" y="440" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">I help small and medium businesses build, fix, and modernise</text>
-  <text x="80" y="473" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">their web presence and internal tools.</text>
+  <text x="80" y="440" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">I build, fix and modernise web apps and internal tools</text>
+  <text x="80" y="473" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="400" fill="#78716c">for small and mid-sized businesses.</text>
 
   <!-- illi wordmark sitting on the bottom strip -->
   <text x="1120" y="592" font-family="Fraunces, Georgia, serif" font-size="46" font-weight="400" fill="#ffffff" text-anchor="end">illi.ie</text>

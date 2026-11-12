@@ -7,3 +7,25 @@
         scroll-behavior: smooth;
     }
 }
+
+/* "Sound familiar?" disclosures: animate open/close where the browser can
+   interpolate to auto height; elsewhere they simply open instantly. */
+@media (prefers-reduced-motion: no-preference) {
+    @supports (interpolate-size: allow-keywords) {
+        .familiar {
+            interpolate-size: allow-keywords;
+        }
+
+        .familiar::details-content {
+            block-size: 0;
+            overflow: clip;
+            opacity: 0;
+            transition: block-size 0.3s ease, opacity 0.3s ease, content-visibility 0.3s allow-discrete;
+        }
+
+        .familiar[open]::details-content {
+            block-size: auto;
+            opacity: 1;
+        }
+    }
+}
