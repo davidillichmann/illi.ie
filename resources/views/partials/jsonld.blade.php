@@ -5,7 +5,7 @@
     "name": "illi",
     "url": "https://illi.ie",
     "email": "david@illi.ie",
-    "description": "I help small and medium businesses build, fix, and modernise their web presence and internal tools.",
+    "description": "I build, fix and modernise web apps and internal tools for small and mid-sized businesses. Based in Celbridge, Ireland.",
     "founder": {
         "@type": "Person",
         "name": "David Illichmann",
@@ -20,6 +20,6 @@
         "addressLocality": "Celbridge",
         "addressCountry": "IE"
     },
-    "serviceType": ["Web Development", "Web Application Development", "Legacy System Modernisation"]
+    "serviceType": ["Web Application Development", "Internal Tools and Portals", "Legacy System Modernisation", "Web Development", "Contract Software Development"]
 }
 </script>
