@@ -198,7 +198,7 @@
                     Nettwerk Central is the custom internal platform where Nettwerk manages artists, contracts and
                     release workflows across its catalogue. I was part of the core team that built and refined it for
                     nearly three years, including the pipeline that takes a release from scheduling through to
-                    distribution. It is used daily across their operation.
+                    distribution.
                 </p>
             </div>
 
